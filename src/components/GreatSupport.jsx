@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function GreatSupport() {
   return(
@@ -9,24 +10,19 @@ function GreatSupport() {
                 <div className="col great-support section-description wow fadeIn">
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="support">
                 <div className="col-12 col-lg-7 great-support-box wow fadeInLeft">
                     <div className="great-support-box-text great-support-box-text-left">
                         <h3>Thanks for visiting!</h3>
                         <p className="medium-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                            sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
+                        Thank you so much for visiting my blog!
                         </p>
                         <p className="medium-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                            Ut wisi enim ad minim veniam, quis nostrud. 
-                            Exerci tation ullamcorper suscipit <span className="colored-text">lobortis nisl</span> ut aliquip ex ea commodo consequat. 
-                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl. 
+                        I hope it was helpful for you in some way!
+                       
                         </p>
                         <p className="medium-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                            Ut wisi enim ad minim veniam, quis nostrud. 
-                            Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        Feel free to follow me on <a href="https://www.flickr.com/photos/midori_brinner/" target="_blank"><span className="colored-text">Flickr</span></a> and <a href="https://www.facebook.com/midori.brinner.7" target="_blank"><span className="colored-text">Facebook</span></a> as well!
                         </p>
                     </div>
                 </div>

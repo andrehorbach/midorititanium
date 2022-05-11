@@ -4,7 +4,7 @@ function BlogFavorites(props) {
   
   return(
     <>
-     	<div className="fav-container section-container" >
+     	<div className="fav-container section-container" id="favorites" >
         <div className="container">
             
             <div className="row">

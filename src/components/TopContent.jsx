@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function TopContent() {
   return(
     <>
-      <div className="top-content"> 
+      <div className="top-content"  id="top" name="top"> 
           <div className="inner-bg">
               <div className="container">
                   <div className="row">
@@ -20,8 +21,8 @@ function TopContent() {
                               </p>
                           </div>
                           <div className="top-big-link wow fadeInUp">
-                              <a className="btn btn-primary btn-link-1" href="https://www.flickr.com/photos/midori_brinner/">See my work</a>
-                              <a className="btn btn-primary btn-link-2 scroll-link" href="#footer">Contact me</a>
+                              <a className="btn btn-primary btn-link-1" href="https://www.flickr.com/photos/midori_brinner/" target="_blank">See my work</a>
+                              <a className="btn btn-primary btn-link-2 scroll-link" href="#support" >Contact me</a>
                           </div>
                       </div>
                   </div>
