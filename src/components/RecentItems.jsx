@@ -3,7 +3,7 @@ import React, {useState, useEffect}  from "react";
 import Posts from "./Posts";
 
 let arrayForHoldingPosts = [];
-
+ 
 function RecentItems(props) {
 
   let posts = props.recentPhotos.photo
