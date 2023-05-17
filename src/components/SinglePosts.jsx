@@ -24,7 +24,7 @@ function SinglePost(){
     
     async function fetchRecent() {
 
-      const response = await fetch('https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=82c49e585f83ca27744741c4f5a2d747&user_id=189305865%40N06&extras=url_c%2C+description%2C+date_taken%2C+tags&per_page=300&format=json&nojsoncallback=1');
+      const response = await fetch('https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=82c49e585f83ca27744741c4f5a2d747&user_id=189305865%40N06&safe_search=3&extras=url_c%2C+description%2C+date_taken%2C+tags&per_page=300&format=json&nojsoncallback=1');
       const data = await response.json();
       const recentPhotosArray = data.photos
       recentPhotosArray.photo.forEach(
